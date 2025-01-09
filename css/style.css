@@ -1,5 +1,12 @@
-@import "tailwindcss/base";
+.button-1{
+    background-color: #1D4ED8;
+    color: white;
+    width: 130px;
+    height: 60px;
+    border-radius: 16px;
+    cursor: pointer;
+}
 
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
+.button-1:hover {
+    background-color: #1d3b8f;
+}
